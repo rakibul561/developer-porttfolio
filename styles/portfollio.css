@@ -3,35 +3,38 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
-color: #FD6E0A;
+
+.text-primary {
+    color: #FD6E0A;
 }
-.btn-primary{
-    border-radius: 5px; 
-    background:#FD6E0A ;
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
     border: 0;
     color: white;
     font-style: 20px;
     font-weight: 700;
     padding: 15px 35px;
 }
-.section-title{
+
+.section-title {
     color: #474747;
     text-align: center;
     font-size: 35px;
     font-weight: 700px;
 }
 
-.section-description{
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
 
 
 }
-  
+
 /* nav releted style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,61 +46,99 @@ nav{
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav li >a{
+
+nav li>a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header releted style */
 
-.header{
+.header {
     background-color: #FFF8F3;
-    background-image:url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 
 }
 
-.profile-pic{
+.profile-pic {
     width: 500px;
-    
+
 }
-.banner-greting{
+
+.banner-greting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700px;
     margin-top: 5px;
     margin-bottom: 20px;
 
 }
+
 /* main section */
-.about{
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
 }
 
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.about-info {
+    align-items: center;
+
+}
+
+#what-i-do {
+    padding: 30px 150px;
+
+}
+
+.skills-contaner {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
